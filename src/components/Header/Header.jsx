@@ -1,10 +1,9 @@
-
-import Navbar from '../Navbar/Navbar';
+import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   return (
-    <div className='sticky top-0 z-50'>
-      <Navbar></Navbar>
+    <div className="md:sticky top-0">
+      <Navbar />
     </div>
   );
 };
