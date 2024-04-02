@@ -17,9 +17,9 @@ export const ProExperience = () => {
     <div className="w-10/12">
       <Timeline>
         <TimelineItem>
-          <TimelineConnector className="bg-white ml-[15px] !w-[3px]" />
+          <TimelineConnector className="bg-white mt-6 md:mt-0 md:ml-[15px] ml-[40px] !w-[3px] " />
           <TimelineHeader>
-            <TimelineIcon className="bg-cyan-500 p-4 -ml-4">
+            <TimelineIcon className="bg-cyan-500 p-4 md:-ml-4 ml-3">
               <CursorArrowRaysIcon className="h-8 w-8" />
             </TimelineIcon>
             <Typography className="" variant="h5" color="white">
@@ -28,7 +28,7 @@ export const ProExperience = () => {
               (OCTOBER 2020 - PRESENT)
             </Typography>
           </TimelineHeader>
-          <TimelineBody className="pb-8">
+          <TimelineBody className="pb-8 md:-me-0 md:ml-0 -me-12 ml-12">
             <Typography
               color="gary"
               className="font-medium text-large  text-gray-300 pl-4"
@@ -43,7 +43,7 @@ export const ProExperience = () => {
         <TimelineItem>
           {/* <TimelineConnector className="bg-white ml-[15px] !w-[3px]" /> */}
           <TimelineHeader>
-            <TimelineIcon className="bg-cyan-500 p-4 -ml-4">
+            <TimelineIcon className="bg-cyan-500 p-4 md:-ml-4 ml-3">
               <PencilSquareIcon className="h-8 w-8" />
             </TimelineIcon>
             <Typography variant="h5" color="white">
@@ -51,7 +51,7 @@ export const ProExperience = () => {
               (JANUARY 2020 - DECEMBER 2020)
             </Typography>
           </TimelineHeader>
-          <TimelineBody className="pb-8">
+          <TimelineBody className="pb-8 md:-me-0 md:ml-0 -me-12 ml-12">
             <Typography
               color="gary"
               className="font-medium text-large  text-gray-300 pl-6"

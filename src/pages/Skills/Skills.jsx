@@ -35,7 +35,7 @@ const Skills = () => {
             height="10px"
             rect
             fontColor="white"
-            percentage="59"
+            percentage="80"
             rectPadding="0px"
             rectBorderRadius="20px"
             trackPathColor="transparent"
@@ -53,11 +53,11 @@ const Skills = () => {
             React
           </h1>
           <ProgressBar
-             width="100%"
-             height="10px"
+            width="100%"
+            height="10px"
             rect
             fontColor="white"
-            percentage="45"
+            percentage="70"
             rectPadding="0px"
             rectBorderRadius="20px"
             trackPathColor="transparent"
@@ -75,8 +75,8 @@ const Skills = () => {
             Wordpress
           </h1>
           <ProgressBar
-             width="100%"
-             height="10px"
+            width="100%"
+            height="10px"
             rect
             fontColor="white"
             percentage="82"
@@ -97,11 +97,11 @@ const Skills = () => {
             communication
           </h1>
           <ProgressBar
-             width="100%"
-             height="10px"
+            width="100%"
+            height="10px"
             rect
             fontColor="white"
-            percentage="88"
+            percentage="85"
             rectPadding="0px"
             rectBorderRadius="20px"
             trackPathColor="transparent"
@@ -119,11 +119,11 @@ const Skills = () => {
             photoshop
           </h1>
           <ProgressBar
-             width="100%"
-             height="10px"
+            width="100%"
+            height="10px"
             rect
             fontColor="white"
-            percentage="62"
+            percentage="50"
             rectPadding="0px"
             rectBorderRadius="20px"
             trackPathColor="transparent"
@@ -141,8 +141,8 @@ const Skills = () => {
             Illustrator
           </h1>
           <ProgressBar
-             width="100%"
-             height="10px"
+            width="100%"
+            height="10px"
             rect
             fontColor="white"
             percentage="45"
@@ -163,11 +163,11 @@ const Skills = () => {
             Figma
           </h1>
           <ProgressBar
-             width="100%"
-             height="10px"
+            width="100%"
+            height="10px"
             rect
             fontColor="white"
-            percentage="71"
+            percentage="70"
             rectPadding="0px"
             rectBorderRadius="20px"
             trackPathColor="transparent"
@@ -185,8 +185,8 @@ const Skills = () => {
             Adobe Premier Pro
           </h1>
           <ProgressBar
-             width="100%"
-             height="10px"
+            width="100%"
+            height="10px"
             rect
             fontColor="white"
             percentage="35"
