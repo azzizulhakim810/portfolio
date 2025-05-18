@@ -1,8 +1,8 @@
-import Typewriter from "typewriter-effect";
-import { FaLinkedinIn } from "react-icons/fa";
-
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { TbBrandFiverr } from "react-icons/tb";
+import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
@@ -37,10 +37,10 @@ const Home = () => {
               on teh web.
             </p>
 
-            <div className="md:flex grid grid-cols-1 justify-end gap-10 items-center py-2">
+            <div className="md:flex grid grid-cols-1 justify-end gap-5 items-center py-2">
               <button className=" lg:flex hidden bg-cyan-500 text-white md:px-10 py-[10px] rounded-md font-normal text-base uppercase">
                 <a
-                  href="https://drive.google.com/file/d/1UrrrukZU4cd1Ly6yDooOiACbkLKV7P7Q/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1QeI7ibVwhF2SkfkpHd4L5XoteBzQP5K5/view?usp=drive_link"
                   download
                 >
                   Resume
@@ -50,7 +50,7 @@ const Home = () => {
               <div className="flex justify-end">
                 <button className="w-1/2 lg:hidden block bg-cyan-500 text-white md:px-10 py-[10px] rounded-md font-normal text-base uppercase">
                   <a
-                    href="https://drive.google.com/file/d/1UrrrukZU4cd1Ly6yDooOiACbkLKV7P7Q/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1QeI7ibVwhF2SkfkpHd4L5XoteBzQP5K5/view?usp=drive_link"
                     download
                   >
                     Resume
@@ -59,9 +59,19 @@ const Home = () => {
               </div>
 
               <div className="flex justify-end gap-8 ">
-                <FaLinkedinIn className="text-2xl text-cyan-400 " />
+              <Link to="https://www.fiverr.com/s/zW5oaLe">
+              <TbBrandFiverr  className="text-2xl text-cyan-400 " />
+              </Link>
+              <Link to="https://linkedin.com/in/azzizul-hakim">
+              <FaLinkedinIn className="text-2xl text-cyan-400 " />
+              </Link>
+                <Link to="https://github.com/azzizulhakim810">
                 <FaGithub className="text-2xl text-cyan-400 " />
-                <MdEmail className="text-2xl text-cyan-400 " />
+                </Link>
+                
+                <Link to="mailto:azzizul.hakim202@gmail.com">
+      <MdEmail className="text-2xl text-cyan-400" />
+    </Link>
               </div>
             </div>
           </div>
@@ -97,7 +107,7 @@ const Home = () => {
               on teh web.
             </p>
 
-            <div className="md:flex grid grid-cols-1 justify-end gap-10 items-center py-2">
+            <div className="md:flex grid grid-cols-1 justify-end gap-5 items-center py-2">
               <button className=" lg:flex hidden bg-cyan-500 text-white md:px-10 py-[10px] rounded-md font-normal text-base uppercase">
                 <a href="/src/assets/CV.pdf" download>
                   Resume
@@ -107,7 +117,7 @@ const Home = () => {
               <div className="flex justify-end">
                 <button className="w-1/2 lg:hidden block bg-cyan-500 text-white md:px-10 py-[10px] rounded-md font-normal text-base uppercase">
                   <a
-                    href="https://drive.google.com/file/d/1UrrrukZU4cd1Ly6yDooOiACbkLKV7P7Q/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1QeI7ibVwhF2SkfkpHd4L5XoteBzQP5K5/view?usp=drive_link"
                     download
                   >
                     Resume
@@ -116,9 +126,19 @@ const Home = () => {
               </div>
 
               <div className="flex justify-end gap-8 ">
-                <FaLinkedinIn className="text-2xl text-cyan-400 " />
+              <Link to="https://www.fiverr.com/s/zW5oaLe">
+              <TbBrandFiverr  className="text-2xl text-cyan-400 " />
+              </Link>
+              <Link to="https://linkedin.com/in/azzizul-hakim">
+              <FaLinkedinIn className="text-2xl text-cyan-400 " />
+              </Link>
+                <Link to="https://github.com/azzizulhakim810">
                 <FaGithub className="text-2xl text-cyan-400 " />
-                <MdEmail className="text-2xl text-cyan-400 " />
+                </Link>
+                
+                <Link to="mailto:azzizul.hakim202@gmail.com">
+      <MdEmail className="text-2xl text-cyan-400" />
+    </Link>
               </div>
             </div>
           </div>

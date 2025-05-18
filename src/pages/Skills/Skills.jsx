@@ -50,6 +50,28 @@ const Skills = () => {
         </div>
         <div className="flex flex-col justify-center items-start">
           <h1 className="font-semibold md:text-xl text-base text-white uppercase leading-2 tracking-widest ">
+            Typescript
+          </h1>
+          <ProgressBar
+            width="100%"
+            height="10px"
+            rect
+            fontColor="white"
+            percentage="60"
+            rectPadding="0px"
+            rectBorderRadius="20px"
+            trackPathColor="transparent"
+            defColor={{
+              fair: "#06B6D4",
+              good: "#06B6D4",
+              excellent: "#06B6D4",
+              poor: "#06B6D4",
+            }}
+            trackBorderColor="#06B6D4"
+          />
+        </div>
+        <div className="flex flex-col justify-center items-start">
+          <h1 className="font-semibold md:text-xl text-base text-white uppercase leading-2 tracking-widest ">
             React
           </h1>
           <ProgressBar
@@ -72,14 +94,14 @@ const Skills = () => {
         </div>
         <div className="flex flex-col justify-center items-start">
           <h1 className="font-semibold md:text-xl text-base text-white uppercase leading-2 tracking-widest ">
-            Wordpress
+            Next Js
           </h1>
           <ProgressBar
             width="100%"
             height="10px"
             rect
             fontColor="white"
-            percentage="82"
+            percentage="70"
             rectPadding="0px"
             rectBorderRadius="20px"
             trackPathColor="transparent"
@@ -94,14 +116,14 @@ const Skills = () => {
         </div>
         <div className="flex flex-col justify-center items-start">
           <h1 className="font-semibold md:text-xl text-base text-white uppercase leading-2 tracking-widest ">
-            communication
+            Team Work + Communication
           </h1>
           <ProgressBar
             width="100%"
             height="10px"
             rect
             fontColor="white"
-            percentage="85"
+            percentage="90"
             rectPadding="0px"
             rectBorderRadius="20px"
             trackPathColor="transparent"
@@ -114,6 +136,29 @@ const Skills = () => {
             trackBorderColor="#06B6D4"
           />
         </div>
+        <div className="flex flex-col justify-center items-start">
+          <h1 className="font-semibold md:text-xl text-base text-white uppercase leading-2 tracking-widest ">
+            Wordpress
+          </h1>
+          <ProgressBar
+            width="100%"
+            height="10px"
+            rect
+            fontColor="white"
+            percentage="90"
+            rectPadding="0px"
+            rectBorderRadius="20px"
+            trackPathColor="transparent"
+            defColor={{
+              fair: "#06B6D4",
+              good: "#06B6D4",
+              excellent: "#06B6D4",
+              poor: "#06B6D4",
+            }}
+            trackBorderColor="#06B6D4"
+          />
+        </div>
+        
         <div className="flex flex-col justify-center items-start">
           <h1 className="font-semibold md:text-xl text-base text-white uppercase leading-2 tracking-widest ">
             photoshop
@@ -136,28 +181,7 @@ const Skills = () => {
             trackBorderColor="#06B6D4"
           />
         </div>
-        <div className="flex flex-col justify-center items-start">
-          <h1 className="font-semibold md:text-xl text-base text-white uppercase leading-2 tracking-widest ">
-            Illustrator
-          </h1>
-          <ProgressBar
-            width="100%"
-            height="10px"
-            rect
-            fontColor="white"
-            percentage="45"
-            rectPadding="0px"
-            rectBorderRadius="20px"
-            trackPathColor="transparent"
-            defColor={{
-              fair: "#06B6D4",
-              good: "#06B6D4",
-              excellent: "#06B6D4",
-              poor: "#06B6D4",
-            }}
-            trackBorderColor="#06B6D4"
-          />
-        </div>
+        
         <div className="flex flex-col justify-center items-start">
           <h1 className="font-semibold md:text-xl text-base text-white uppercase leading-2 tracking-widest ">
             Figma
@@ -180,28 +204,7 @@ const Skills = () => {
             trackBorderColor="#06B6D4"
           />
         </div>
-        <div className="flex flex-col justify-center items-start">
-          <h1 className="font-semibold md:text-xl text-base text-white uppercase leading-2 tracking-widest ">
-            Adobe Premier Pro
-          </h1>
-          <ProgressBar
-            width="100%"
-            height="10px"
-            rect
-            fontColor="white"
-            percentage="35"
-            rectPadding="0px"
-            rectBorderRadius="20px"
-            trackPathColor="transparent"
-            defColor={{
-              fair: "#06B6D4",
-              good: "#06B6D4",
-              excellent: "#06B6D4",
-              poor: "#06B6D4",
-            }}
-            trackBorderColor="#06B6D4"
-          />
-        </div>
+        
         {/* <div className='flex flex-col justify-center items-center'>
               <h1 className='font-semibold text-3xl py-6'>React</h1>
               <ProgressBar width="230" trackWidth="13" percentage="60" />

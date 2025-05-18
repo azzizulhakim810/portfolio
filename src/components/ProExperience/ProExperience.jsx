@@ -1,6 +1,6 @@
 import {
   CursorArrowRaysIcon,
-  PencilSquareIcon,
+  PencilSquareIcon
 } from "@heroicons/react/24/solid";
 import {
   Timeline,
@@ -9,13 +9,34 @@ import {
   TimelineHeader,
   TimelineIcon,
   TimelineItem,
-  Typography,
+  Typography
 } from "@material-tailwind/react";
 
 export const ProExperience = () => {
   return (
     <div className="w-10/12">
       <Timeline>
+        <TimelineItem>
+          <TimelineConnector className="bg-white mt-6 md:mt-0 md:ml-[15px] ml-[40px] !w-[3px] " />
+          <TimelineHeader>
+            <TimelineIcon className="bg-cyan-500 p-4 md:-ml-4 ml-3">
+              <CursorArrowRaysIcon className="h-8 w-8" />
+            </TimelineIcon>
+            <Typography className="" variant="h5" color="white">
+              JUNIOR MERN DEV INTERN (REMOTE) |{" "}
+              <span className="text-cyan-400">PEACOCK INDIA, CHENNAI, INDIA</span>{" "}
+              (JUNE 2024 - AUGUST 2024)
+            </Typography>
+          </TimelineHeader>
+          <TimelineBody className="pb-8 md:-me-0 md:ml-0 -me-12 ml-12">
+            <Typography
+              color="gary"
+              className="font-medium text-large  text-gray-300 pl-4"
+            >
+              I worked there with a rigorous team. Daily Stand-ups, learning environment with the accountability of work provide me a good developer mindset. 
+            </Typography>
+          </TimelineBody>
+        </TimelineItem>
         <TimelineItem>
           <TimelineConnector className="bg-white mt-6 md:mt-0 md:ml-[15px] ml-[40px] !w-[3px] " />
           <TimelineHeader>

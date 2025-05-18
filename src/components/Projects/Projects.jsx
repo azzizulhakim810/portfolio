@@ -93,6 +93,25 @@ const Projects = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
+              <img src="https://i.ibb.co/1JK0LsBy/Stream-Verse.png" />
+              <h1 className="text-2xl font-bold py-2"> Stream Verse</h1>
+              <p>
+                A video streaming platform where you can watch the existing videos along with upload any video from your dashboard.
+              </p>
+              <div className="flex gap-5 underline underline-offset-4 text-white pt-1">
+                <button>
+                  <a href="https://stream-verse-main.vercel.app">
+                    Live Link
+                  </a>
+                </button>
+                <button>
+                  <a href="https://github.com/azzizulhakim810/stream-verse-main">
+                    Github Code
+                  </a>
+                </button>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
               <img
                 className="ms-2"
                 src="https://i.ibb.co/QvGRMr2/task-hub-1.png"
@@ -118,7 +137,7 @@ const Projects = () => {
               <img src="https://i.ibb.co/0h1jyLP/screencapture-azzizulhakim810-gi.png" />
               <h1 className="text-2xl font-bold py-2"> Eduford</h1>
               <p>
-                It's a admission based website. Peole can get help from the the
+                It's a admission based website. People can get help from the the
                 agency. They can see the campus, testimonials, about it & the
                 faculty.{" "}
               </p>
@@ -135,6 +154,7 @@ const Projects = () => {
                 </button>
               </div>
             </SwiperSlide>
+            
           </Swiper>
           {/* <div className="w-4/6 mx-auto text-center">
             <img

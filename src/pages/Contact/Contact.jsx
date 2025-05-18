@@ -23,6 +23,11 @@ const Contact = () => {
         Contact Me
       </h1>
 
+      <p className="my-5 text-white md:text-xl font-normal text-center">
+              <span className="text-cyan-400">Reach Me</span>{" "}
+              out at your convenience
+            </p>
+
 
 <form className='flex flex-col gap-0' ref={form} onSubmit={sendEmail}>
       <label>Name</label>
