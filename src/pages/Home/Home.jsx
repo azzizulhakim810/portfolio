@@ -40,7 +40,7 @@ const Home = () => {
             <div className="md:flex grid grid-cols-1 justify-end gap-5 items-center py-2">
               <button className=" lg:flex hidden bg-cyan-500 text-white md:px-10 py-[10px] rounded-md font-normal text-base uppercase">
                 <a
-                  href="https://drive.google.com/file/d/1QeI7ibVwhF2SkfkpHd4L5XoteBzQP5K5/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1zi5KBHjkS608ePnV3gXjCws6eOdaPAGV/view?usp=sharing"
                   download
                 >
                   Resume
@@ -50,7 +50,7 @@ const Home = () => {
               <div className="flex justify-end">
                 <button className="w-1/2 lg:hidden block bg-cyan-500 text-white md:px-10 py-[10px] rounded-md font-normal text-base uppercase">
                   <a
-                    href="https://drive.google.com/file/d/1QeI7ibVwhF2SkfkpHd4L5XoteBzQP5K5/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1zi5KBHjkS608ePnV3gXjCws6eOdaPAGV/view?usp=sharing"
                     download
                   >
                     Resume
@@ -109,7 +109,7 @@ const Home = () => {
 
             <div className="md:flex grid grid-cols-1 justify-end gap-5 items-center py-2">
               <button className=" lg:flex hidden bg-cyan-500 text-white md:px-10 py-[10px] rounded-md font-normal text-base uppercase">
-                <a href="/src/assets/CV.pdf" download>
+                <a href="https://drive.google.com/file/d/1zi5KBHjkS608ePnV3gXjCws6eOdaPAGV/view?usp=sharing" download>
                   Resume
                 </a>
               </button>
@@ -117,7 +117,7 @@ const Home = () => {
               <div className="flex justify-end">
                 <button className="w-1/2 lg:hidden block bg-cyan-500 text-white md:px-10 py-[10px] rounded-md font-normal text-base uppercase">
                   <a
-                    href="https://drive.google.com/file/d/1QeI7ibVwhF2SkfkpHd4L5XoteBzQP5K5/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1zi5KBHjkS608ePnV3gXjCws6eOdaPAGV/view?usp=sharing"
                     download
                   >
                     Resume
