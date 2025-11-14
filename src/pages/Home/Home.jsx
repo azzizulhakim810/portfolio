@@ -24,7 +24,7 @@ const Home = () => {
               <span className="text-cyan-400">AZZIZUL</span> HAKIM{" "}
               <Typewriter
                 options={{
-                  strings: ["WEB DEVELOPER", "WEB DESIGNER", "FREELANCER"],
+                  strings: ["FULLSTACK DEV", "WEB DESIGNER", "FREELANCER"],
                   autoStart: true,
                   loop: true,
                   cursor: "_",
@@ -32,15 +32,15 @@ const Home = () => {
               />
             </h1>
             <p className="mb-5  text-white md:text-xl text-base font-normal text-right md:pl-[60%]">
-              <span className="text-cyan-400">A Front-End Developer</span>{" "}
-              passionate about creating Interective applications and experiences
-              on teh web.
+              <span className="text-cyan-400">A Full-Stack Developer</span>{" "}
+              passionate about creating Interactive applications and experiences
+              on the web.
             </p>
 
             <div className="md:flex grid grid-cols-1 justify-end gap-5 items-center py-2">
               <button className=" lg:flex hidden bg-cyan-500 text-white md:px-10 py-[10px] rounded-md font-normal text-base uppercase">
                 <a
-                  href="https://drive.google.com/file/d/1zi5KBHjkS608ePnV3gXjCws6eOdaPAGV/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1PdlpQtmSylvrZMFZwU6mYiD9biwjJFYj/view?usp=sharing"
                   download
                 >
                   Resume
@@ -50,7 +50,7 @@ const Home = () => {
               <div className="flex justify-end">
                 <button className="w-1/2 lg:hidden block bg-cyan-500 text-white md:px-10 py-[10px] rounded-md font-normal text-base uppercase">
                   <a
-                    href="https://drive.google.com/file/d/1zi5KBHjkS608ePnV3gXjCws6eOdaPAGV/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1PdlpQtmSylvrZMFZwU6mYiD9biwjJFYj/view?usp=sharing"
                     download
                   >
                     Resume
@@ -59,19 +59,19 @@ const Home = () => {
               </div>
 
               <div className="flex justify-end gap-8 ">
-              <Link to="https://www.fiverr.com/s/zW5oaLe">
-              <TbBrandFiverr  className="text-2xl text-cyan-400 " />
-              </Link>
-              <Link to="https://linkedin.com/in/azzizul-hakim">
-              <FaLinkedinIn className="text-2xl text-cyan-400 " />
-              </Link>
-                <Link to="https://github.com/azzizulhakim810">
-                <FaGithub className="text-2xl text-cyan-400 " />
+                <Link to="https://www.fiverr.com/s/zW5oaLe">
+                  <TbBrandFiverr className="text-2xl text-cyan-400 " />
                 </Link>
-                
+                <Link to="https://linkedin.com/in/azzizul-hakim">
+                  <FaLinkedinIn className="text-2xl text-cyan-400 " />
+                </Link>
+                <Link to="https://github.com/azzizulhakim810">
+                  <FaGithub className="text-2xl text-cyan-400 " />
+                </Link>
+
                 <Link to="mailto:azzizul.hakim202@gmail.com">
-      <MdEmail className="text-2xl text-cyan-400" />
-    </Link>
+                  <MdEmail className="text-2xl text-cyan-400" />
+                </Link>
               </div>
             </div>
           </div>
@@ -94,7 +94,11 @@ const Home = () => {
               <span className="text-cyan-400">AZZIZUL</span> HAKIM{" "}
               <Typewriter
                 options={{
-                  strings: ["WEB DEVELOPER", "WEB DESIGNER", "FREELANCER"],
+                  strings: [
+                    "FULLSTACK DEVELOPER",
+                    "WEB DESIGNER",
+                    "FREELANCER",
+                  ],
                   autoStart: true,
                   loop: true,
                   cursor: "_",
@@ -102,14 +106,17 @@ const Home = () => {
               />
             </h1>
             <p className="mb-5  text-white md:text-xl text-base font-normal text-right md:pl-[60%]">
-              <span className="text-cyan-400">A Front-End Developer</span>{" "}
-              passionate about creating Interective applications and experiences
-              on teh web.
+              <span className="text-cyan-400">A Full-Stack Developer</span>{" "}
+              passionate about creating Interactive applications and experiences
+              on the web.
             </p>
 
             <div className="md:flex grid grid-cols-1 justify-end gap-5 items-center py-2">
               <button className=" lg:flex hidden bg-cyan-500 text-white md:px-10 py-[10px] rounded-md font-normal text-base uppercase">
-                <a href="https://drive.google.com/file/d/1zi5KBHjkS608ePnV3gXjCws6eOdaPAGV/view?usp=sharing" download>
+                <a
+                  href="https://drive.google.com/file/d/1PdlpQtmSylvrZMFZwU6mYiD9biwjJFYj/view?usp=sharing"
+                  download
+                >
                   Resume
                 </a>
               </button>
@@ -117,7 +124,7 @@ const Home = () => {
               <div className="flex justify-end">
                 <button className="w-1/2 lg:hidden block bg-cyan-500 text-white md:px-10 py-[10px] rounded-md font-normal text-base uppercase">
                   <a
-                    href="https://drive.google.com/file/d/1zi5KBHjkS608ePnV3gXjCws6eOdaPAGV/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1PdlpQtmSylvrZMFZwU6mYiD9biwjJFYj/view?usp=sharing"
                     download
                   >
                     Resume
@@ -126,19 +133,19 @@ const Home = () => {
               </div>
 
               <div className="flex justify-end gap-8 ">
-              <Link to="https://www.fiverr.com/s/zW5oaLe">
-              <TbBrandFiverr  className="text-2xl text-cyan-400 " />
-              </Link>
-              <Link to="https://linkedin.com/in/azzizul-hakim">
-              <FaLinkedinIn className="text-2xl text-cyan-400 " />
-              </Link>
-                <Link to="https://github.com/azzizulhakim810">
-                <FaGithub className="text-2xl text-cyan-400 " />
+                <Link to="https://www.fiverr.com/s/zW5oaLe">
+                  <TbBrandFiverr className="text-2xl text-cyan-400 " />
                 </Link>
-                
+                <Link to="https://linkedin.com/in/azzizul-hakim">
+                  <FaLinkedinIn className="text-2xl text-cyan-400 " />
+                </Link>
+                <Link to="https://github.com/azzizulhakim810">
+                  <FaGithub className="text-2xl text-cyan-400 " />
+                </Link>
+
                 <Link to="mailto:azzizul.hakim202@gmail.com">
-      <MdEmail className="text-2xl text-cyan-400" />
-    </Link>
+                  <MdEmail className="text-2xl text-cyan-400" />
+                </Link>
               </div>
             </div>
           </div>

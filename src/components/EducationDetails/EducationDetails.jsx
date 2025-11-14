@@ -1,6 +1,6 @@
 import {
   CursorArrowRaysIcon,
-  PencilSquareIcon
+  PencilSquareIcon,
 } from "@heroicons/react/24/solid";
 import {
   Timeline,
@@ -9,7 +9,7 @@ import {
   TimelineHeader,
   TimelineIcon,
   TimelineItem,
-  Typography
+  Typography,
 } from "@material-tailwind/react";
 
 const EducationDetails = () => {
@@ -31,8 +31,7 @@ const EducationDetails = () => {
               color="gray"
               className="font-medium text-large  text-gray-300 "
             >
-              UNIVERSITY OF DHAKA <br />
-              (2025-PRESENT)
+              UNIVERSITY OF DHAKA (2025-PRESENT)
             </Typography>
           </TimelineBody>
         </TimelineItem>
@@ -51,8 +50,7 @@ const EducationDetails = () => {
               color="gray"
               className="font-medium text-large  text-gray-300 "
             >
-              PABNA UNIVERSITY OF SCIENCE & TECHNOLOGY, PABNA <br />
-              (2019-2024)
+              PABNA UNIVERSITY OF SCIENCE & TECHNOLOGY, PABNA (2019-2024)
             </Typography>
           </TimelineBody>
         </TimelineItem>
@@ -71,8 +69,7 @@ const EducationDetails = () => {
               color="gary"
               className="font-medium text-large  text-gray-300"
             >
-              SAVAR LABORATORY COLLEGE, SAVAR, DHAKA <br />
-              (2016-2018)
+              SAVAR LABORATORY COLLEGE, SAVAR, DHAKA (2016-2018)
             </Typography>
           </TimelineBody>
         </TimelineItem>

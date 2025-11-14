@@ -14,9 +14,9 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 const Projects = () => {
   return (
     <div>
-      <div className="flex flex-col justify-center items-center py-20">
+      <div className="flex flex-col justify-center items-center py-10">
         <h1 className="font-extrabold text-transparent lg:text-5xl text-xl bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-600 pb-10">
-          MY PROJECTS
+          My Projects
         </h1>
 
         <div className="md:w-full w-[80%]">
@@ -37,19 +37,18 @@ const Projects = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src="https://i.ibb.co/wRzrRxV/screencapture-opinifyx-assignmen.png" />
-              <h1 className="text-2xl font-bold py-2"> OPINIOX</h1>
+              <img src="https://i.ibb.co.com/ccKhb4pF/rent-residence2.jpg" />
+              <h1 className="text-2xl font-bold py-2"> Rent & Residence</h1>
               <p>
-                A forum based website. Where people can search topic, comment on
-                the topic. Create post. There are admin & user role with
-                specific power.
+                A complete real-estate management platform with property
+                listing, booking, and role-based dashboards.
               </p>
               <div className="flex gap-5 underline underline-offset-4 text-white pt-1">
                 <button>
-                  <a href="https://opinifyx-assignment.web.app/">Live Link</a>
+                  <a href="https://rent-residence-3a842.web.app">Live Link</a>
                 </button>
                 <button>
-                  <a href="https://github.com/azzizulhakim810/opiniox-client">
+                  <a href="https://github.com/azzizulhakim810/rent-and-residence">
                     Github Code
                   </a>
                 </button>
@@ -93,16 +92,34 @@ const Projects = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://i.ibb.co/1JK0LsBy/Stream-Verse.png" />
-              <h1 className="text-2xl font-bold py-2"> Stream Verse</h1>
+              <img src="https://i.ibb.co/wRzrRxV/screencapture-opinifyx-assignmen.png" />
+              <h1 className="text-2xl font-bold py-2"> OPINIOX</h1>
               <p>
-                A video streaming platform where you can watch the existing videos along with upload any video from your dashboard.
+                A forum based website. Where people can search topic, comment on
+                the topic. Create post. There are admin & user role with
+                specific power.
               </p>
               <div className="flex gap-5 underline underline-offset-4 text-white pt-1">
                 <button>
-                  <a href="https://stream-verse-main.vercel.app">
-                    Live Link
+                  <a href="https://opinifyx-assignment.web.app/">Live Link</a>
+                </button>
+                <button>
+                  <a href="https://github.com/azzizulhakim810/opiniox-client">
+                    Github Code
                   </a>
+                </button>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="https://i.ibb.co/1JK0LsBy/Stream-Verse.png" />
+              <h1 className="text-2xl font-bold py-2"> Stream Verse</h1>
+              <p>
+                A video streaming platform where you can watch the existing
+                videos along with upload any video from your dashboard.
+              </p>
+              <div className="flex gap-5 underline underline-offset-4 text-white pt-1">
+                <button>
+                  <a href="https://stream-verse-main.vercel.app">Live Link</a>
                 </button>
                 <button>
                   <a href="https://github.com/azzizulhakim810/stream-verse-main">
@@ -154,7 +171,6 @@ const Projects = () => {
                 </button>
               </div>
             </SwiperSlide>
-            
           </Swiper>
           {/* <div className="w-4/6 mx-auto text-center">
             <img
