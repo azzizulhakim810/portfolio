@@ -1,7 +1,4 @@
-import {
-  CursorArrowRaysIcon,
-  PencilSquareIcon,
-} from "@heroicons/react/24/solid";
+import { CursorArrowRaysIcon } from "@heroicons/react/24/solid";
 import {
   Timeline,
   TimelineBody,
@@ -11,6 +8,9 @@ import {
   TimelineItem,
   Typography,
 } from "@material-tailwind/react";
+import { LuSchool } from "react-icons/lu";
+import { LuGraduationCap } from "react-icons/lu";
+import { FaUserGraduate } from "react-icons/fa6";
 
 const EducationDetails = () => {
   return (
@@ -20,7 +20,7 @@ const EducationDetails = () => {
           <TimelineConnector className="bg-white mt-0 md:mt-0 md:ml-[15px] ml-[42px] !w-[3px] " />
           <TimelineHeader>
             <TimelineIcon className="bg-cyan-500 p-4 md:-ml-4 ml-3">
-              <CursorArrowRaysIcon className="h-8 w-8" />
+              <FaUserGraduate className="h-8 w-8" />
             </TimelineIcon>
             <Typography className="" variant="h5" color="white">
               MSS IN DEVELOPMENT STUDIES
@@ -39,7 +39,7 @@ const EducationDetails = () => {
           <TimelineConnector className="bg-white mt-0 md:mt-0 md:ml-[15px] ml-[42px] !w-[3px] " />
           <TimelineHeader>
             <TimelineIcon className="bg-cyan-500 p-4 md:-ml-4 ml-3">
-              <CursorArrowRaysIcon className="h-8 w-8" />
+              <LuGraduationCap className="h-8 w-8" />
             </TimelineIcon>
             <Typography className="" variant="h5" color="white">
               BSS HONORS IN SOCIAL WORK
@@ -58,7 +58,7 @@ const EducationDetails = () => {
           {/* <TimelineConnector className="bg-white ml-[15px] !w-[3px]" /> */}
           <TimelineHeader>
             <TimelineIcon className="bg-cyan-500 p-4 md:-ml-4 ml-3">
-              <PencilSquareIcon className="h-8 w-8" />
+              <LuSchool className="h-8 w-8" />
             </TimelineIcon>
             <Typography variant="h5" color="white">
               COLLEGE
@@ -66,7 +66,7 @@ const EducationDetails = () => {
           </TimelineHeader>
           <TimelineBody className="pb-8 md:-me-0 md:ml-0 -me-12 ml-12">
             <Typography
-              color="gary"
+              color="gray"
               className="font-medium text-large  text-gray-300"
             >
               SAVAR LABORATORY COLLEGE, SAVAR, DHAKA (2016-2018)

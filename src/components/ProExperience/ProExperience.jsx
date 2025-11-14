@@ -2,6 +2,7 @@ import {
   CursorArrowRaysIcon,
   PencilSquareIcon,
 } from "@heroicons/react/24/solid";
+import { FaRegKeyboard } from "react-icons/fa";
 import {
   Timeline,
   TimelineBody,
@@ -20,7 +21,7 @@ export const ProExperience = () => {
           <TimelineConnector className="bg-white mt-6 md:mt-0 md:ml-[15px] ml-[40px] !w-[3px] " />
           <TimelineHeader>
             <TimelineIcon className="bg-cyan-500 p-4 md:-ml-4 ml-3">
-              <CursorArrowRaysIcon className="h-8 w-8" />
+              <FaRegKeyboard className="h-8 w-8" />
             </TimelineIcon>
             <Typography className="" variant="h5" color="white">
               JUNIOR MERN DEV INTERN (REMOTE) |{" "}
@@ -32,8 +33,8 @@ export const ProExperience = () => {
           </TimelineHeader>
           <TimelineBody className="pb-8 md:-me-0 md:ml-0 -me-12 ml-12">
             <Typography
-              color="gary"
-              className="font-medium text-large  text-gray-300 pl-4"
+              color="gray"
+              className="font-medium text-large  text-gray-300 pl-0"
             >
               I worked there with a rigorous team. Daily Stand-ups, learning
               environment with the accountability of work provide me a good
@@ -78,7 +79,7 @@ export const ProExperience = () => {
           </TimelineHeader>
           <TimelineBody className="pb-8 md:-me-0 md:ml-0 -me-12 ml-12">
             <Typography
-              color="gary"
+              color="gray"
               className="font-medium text-large  text-gray-300 pl-6"
             >
               The key to more success is to have a lot of pillows. Put it this
