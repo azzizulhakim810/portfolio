@@ -16,7 +16,7 @@ const EducationDetails = () => {
     <div className="w-10/12">
       <Timeline>
         <TimelineItem>
-          <TimelineConnector className="bg-white lg:mt-6 mt-0 md:mt-0 md:ml-[15px] ml-[38px] !w-[3px] " />
+          <TimelineConnector className="bg-white lg:mt-0 mt-0 md:mt-0 md:ml-[15px] ml-[38px] !w-[3px] " />
           <TimelineHeader>
             <TimelineIcon className="bg-cyan-500 p-4 md:-ml-4 ml-4">
               <FaUserGraduate className="lg:h-8 lg:w-8 h-4 w-4" />
@@ -42,7 +42,7 @@ const EducationDetails = () => {
           </TimelineBody>
         </TimelineItem>
         <TimelineItem>
-          <TimelineConnector className="bg-white lg:mt-6 mt-0 md:mt-0 md:ml-[15px] ml-[38px] !w-[3px] " />
+          <TimelineConnector className="bg-white lg:mt-0 mt-0 md:mt-0 md:ml-[15px] ml-[38px] !w-[3px] " />
           <TimelineHeader>
             <TimelineIcon className="bg-cyan-500 p-4 md:-ml-4 ml-4">
               <LuGraduationCap className="lg:h-8 lg:w-8 h-4 w-4" />

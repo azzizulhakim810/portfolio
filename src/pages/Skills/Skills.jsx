@@ -25,7 +25,7 @@ const Skills = () => {
             </div>
             </div> */}
 
-      <div className="grid md:grid-cols-2 grid-cols-1 md:w-10/12 w-11/12 mx-auto pt-10 gap-6">
+      <div className="grid md:grid-cols-2 grid-cols-1 md:w-10/12 w-10/12 mx-auto pt-10 lg:gap-6 gap-2">
         <div className="flex flex-col justify-center items-start">
           <h1 className="font-semibold md:text-xl text-base text-white uppercase leading-2 tracking-widest ">
             Javascript

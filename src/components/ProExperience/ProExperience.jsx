@@ -18,7 +18,7 @@ export const ProExperience = () => {
     <div className="w-12/12">
       <Timeline>
         <TimelineItem>
-          <TimelineConnector className="bg-white lg:mt-6 mt-3 md:mt-0 md:ml-[15px] ml-[38px] !w-[3px] " />
+          <TimelineConnector className="bg-white lg:mt-0 mt-3 md:mt-0 md:ml-[15px] ml-[38px] !w-[3px] " />
           <TimelineHeader>
             <TimelineIcon className="bg-cyan-500 p-4 md:-ml-4 ml-4">
               <FaRegKeyboard className="lg:h-8 lg:w-8 h-4 w-4" />
@@ -55,7 +55,7 @@ export const ProExperience = () => {
           </TimelineBody>
         </TimelineItem>
         <TimelineItem>
-          <TimelineConnector className="bg-white lg:mt-6 mt-3 md:mt-0 md:ml-[15px] ml-[38px] !w-[3px] " />
+          <TimelineConnector className="bg-white lg:mt-0 mt-3 md:mt-0 md:ml-[15px] ml-[38px] !w-[3px] " />
           <TimelineHeader>
             <TimelineIcon className="bg-cyan-500 p-4 md:-ml-4 ml-4">
               <CursorArrowRaysIcon className="lg:h-8 lg:w-8 h-4 w-4" />
