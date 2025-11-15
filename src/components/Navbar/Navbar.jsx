@@ -3,6 +3,7 @@ import { BiPen } from "react-icons/bi";
 import { LuFiles, LuUserSquare } from "react-icons/lu";
 import { MdCastForEducation } from "react-icons/md";
 import { SlBriefcase } from "react-icons/sl";
+import { RiHome5Line } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -20,7 +21,7 @@ const Navbar = () => {
         }
       >
         <li className="flex md:w-full items-center justify-center md:border-[1px] border-0  border-cyan-400 gap-2 transition-all md:px-2 px-[5px] py-2 md:py-3 duration-500 md:hover:text-white md:hover:bg-cyan-500 rounded-md">
-          <LuFiles className="md:text-base text-xl  text-center"></LuFiles>{" "}
+          <RiHome5Line className="md:text-base text-xl  text-center"></RiHome5Line>{" "}
           <span className="md:text-base  text-sm md:w-2/3 text-left hidden md:block">
             HOME
           </span>
